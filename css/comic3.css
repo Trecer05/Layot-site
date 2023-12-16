@@ -1,0 +1,89 @@
+.comic-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    border: 3px solid darkred;
+    font-family: 'Shantell Sans', sans-serif;
+}
+
+.comic__item {
+    width: 50%;
+    
+    border: 3px solid darkred;
+    position: relative;
+}
+
+.comic__img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.cloud-img {
+    width: 100%;
+}
+
+.comic__item5 .cloud1 {
+    position: absolute;
+    width: 50%;
+    top: -30px;
+    left: 0%;
+}
+
+.comic__item5 .text3 {
+    position: absolute;
+    top: 120px;
+    right: 60px;
+    font-size: 18px;
+
+}
+
+.comic__item5 .text4 {
+    position: absolute;
+    top: 90px;
+    right: 40px;
+    font-size: 18px;
+
+}
+
+.comic__item5 .text5 {
+    position: absolute;
+    top: 90px;
+    right: 40px;
+    font-size: 18px;
+
+}
+
+.comic__item5 .cloud-img1 {
+    transform: scaleX(-1);
+}
+
+.comic__item5 .cloud2 {
+    position: absolute;
+    width: 60%;
+    right: 25%;
+    bottom: 10px;
+
+}
+
+.comic__item5 .cloud-img2 {
+    transform: rotate(180deg);
+}
+
+.comic__item5 .text1 {
+    position: absolute;
+    bottom: 45%;
+    right: 25%;
+    left: 15%;
+    font-size: 13px;
+    text-align: center;
+
+}
+
+.comic__item5 .text2 {
+    position: absolute;
+    left: 35%;
+    bottom: 40%;
+    font-size: 13px;
+    
+
+}
